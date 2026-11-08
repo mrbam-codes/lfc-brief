@@ -293,5 +293,85 @@
   }
  ],
  "talking": [],
- "xlist": []
+ "xlist": [
+  {
+   "handle": "@thisisanfield",
+   "kind": "performance",
+   "headline": "Isak could match a Salah feat with a goal at Palace",
+   "summary": "This Is Anfield says a goal at Selhurst Park would let Isak match a Mo Salah record. The post gives no source and the thread was not opened.",
+   "trust": "Opinion",
+   "thread": {
+    "date": "8 Nov",
+    "url": "https://x.com/thisisanfield/status/2119343032394826214"
+   }
+  },
+  {
+   "handle": "@FabrizioRomano",
+   "kind": "transfer",
+   "headline": "Iraola unsure if this is Alisson's last season",
+   "summary": "Romano relays Iraola saying he does not know if Alisson will leave and hopes he stays. It is a manager's quote, not a transfer report. Thread not opened.",
+   "trust": "Plausible",
+   "thread": {
+    "date": "7 Nov",
+    "url": "https://x.com/FabrizioRomano/status/2118971715485413478"
+   }
+  }
+ ],
+ "mood": {
+  "word": "mixed",
+  "split": {
+   "positive": 40,
+   "mixed": 40,
+   "negative": 20
+  },
+  "bySubject": {
+   "player": [
+    50,
+    30,
+    20
+   ],
+   "team": [
+    40,
+    40,
+    20
+   ],
+   "manager": [
+    30,
+    40,
+    30
+   ],
+   "board": [
+    20,
+    40,
+    40
+   ]
+  },
+  "basis": "About 30 posts on X under #LFC before Palace (Reddit not read)",
+  "themes": [
+   "Fans want a response after two defeats in a week.",
+   "Midfield picks and Gravenberch's fitness are debated.",
+   "Alisson's contract and possible exits are in the talk.",
+   "Match day mood is hopeful for points at Selhurst Park."
+  ],
+  "quotes": [
+   {
+    "about": "team",
+    "subject": "The team",
+    "kind": "opinion",
+    "tone": "positive",
+    "text": "Liverpool have a score to settle with Crystal Palace. Let's get those three points.",
+    "handle": "@CIIASportsINT",
+    "url": "https://x.com/CIIASportsINT/status/2119343377523020094"
+   },
+   {
+    "about": "team",
+    "subject": "The team",
+    "kind": "opinion",
+    "tone": "positive",
+    "text": "Happy Match Day Reds. Crystal Palace vs LIVERPOOL. Let's go Reds & get the win",
+    "handle": "@LFCRed25",
+    "url": "https://x.com/LFCRed25/status/2119341304186630244"
+   }
+  ]
+ }
 }
