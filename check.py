@@ -197,10 +197,12 @@ def check(date):
         need(len(rb) >= 1, f"{w}: needs at least one source in reportedBy")
         for r in rb:
             text(f"{w} outlet", r.get("outlet"), 40)
+            text(f"{w} origin", r.get("origin"), 40)
             need(DATE_RE.match(str(r.get("date", ""))), f"{w}: reportedBy date must be YYYY-MM-DD")
             url(f"{w} reportedBy", r.get("url"))
         if t.get("tier") == 3:
-            need(len({str(r.get("outlet", "")).lower() for r in rb}) >= 2, f"{w}: a Tier 3 rumour needs two different outlets")
+            need(len({str(r.get("origin", "")).strip().lower() for r in rb}) >= 2,
+                 f"{w}: a Tier 3 rumour needs two different original sources, not two outlets copying one report")
         for k in ("firstSeen", "lastChange"):
             need(DATE_RE.match(str(t.get(k, ""))) and str(t.get(k)) <= date, f"{w}: {k} must be a date no later than today")
         if DATE_RE.match(str(t.get("lastChange", ""))):
@@ -285,6 +287,9 @@ def check(date):
             need(str(q.get("handle", "")).startswith(("@", "u/")), f"{w}: handle must start with @ or u/")
             text(f"{w} handle", q.get("handle"), 40)
             u = str(q.get("url") or "")
+            hd = str(q.get("handle", ""))
+            if u.startswith("https://x.com/") and hd.startswith("@"):
+                need(u.lower().startswith("https://x.com/" + hd[1:].lower() + "/"), f"{w}: url must be a post by {hd}")
             need(u.startswith(("https://x.com/", "https://www.reddit.com/", "https://reddit.com/")), f"{w}: url must be on x.com or reddit.com")
 
 

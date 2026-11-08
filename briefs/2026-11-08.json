@@ -238,60 +238,7 @@
    }
   }
  ],
- "tracker": [
-  {
-   "id": "gk-verbruggen",
-   "player": "Bart Verbruggen",
-   "position": "Goalkeeper",
-   "club": "Brighton",
-   "move": "in",
-   "status": "warm",
-   "tier": 3,
-   "reportedBy": [
-    {
-     "outlet": "Football365",
-     "journalist": "",
-     "date": "2026-11-07",
-     "url": "https://www.football365.com/news/liverpool-brighton-verbruggen-shock-transfer-alisson-concerns-kerkez"
-    },
-    {
-     "outlet": "CaughtOffside",
-     "journalist": "Saikat",
-     "date": "2026-11-07",
-     "url": "https://caughtoffside.com/2026/11/07/liverpool-identify-24-year-old-premier-league-star-ahead-of-next-summers-transfer-window"
-    }
-   ],
-   "firstSeen": "2026-11-07",
-   "lastChange": "2026-11-07",
-   "update": "New today. Both reports cite Football Insider."
-  },
-  {
-   "id": "rb-frimpong-al-hilal",
-   "player": "Jeremie Frimpong",
-   "position": "Right-back",
-   "club": "Liverpool",
-   "move": "out",
-   "status": "warm",
-   "tier": 3,
-   "reportedBy": [
-    {
-     "outlet": "TEAMtalk",
-     "journalist": "James Holland",
-     "date": "2026-11-07",
-     "url": "https://www.teamtalk.com/liverpool/jeremie-frimpong-reaches-decision-exit-transfer-offer-made-saudi-arabia"
-    },
-    {
-     "outlet": "Goal",
-     "journalist": "",
-     "date": "2026-11-07",
-     "url": "https://www.goal.com/en-gb/news/liverpool-defender-jeremie-frimpong-offered-al-hilal-shock-anfield-exit-transfer/blt9100ab91daea14c4"
-    }
-   ],
-   "firstSeen": "2026-11-07",
-   "lastChange": "2026-11-07",
-   "update": "New today. Both trace it to Win Win. Unconfirmed."
-  }
- ],
+ "tracker": [],
  "talking": [],
  "xlist": [
   {
