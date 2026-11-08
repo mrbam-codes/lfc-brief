@@ -262,6 +262,12 @@ def check(date):
         if all(isinstance(v, int) for v in parts):
             need(sum(parts) == 100, f"mood split: adds up to {sum(parts)}, must be 100")
         text("mood basis", mood.get("basis"), 90)
+        bs = mood.get("bySubject") or {}
+        need(isinstance(bs, dict), "mood bySubject: must be an object")
+        for k, v in (bs.items() if isinstance(bs, dict) else []):
+            need(k in ("player", "team", "manager", "board"), f"mood bySubject: unknown target {k}")
+            need(isinstance(v, list) and len(v) == 3 and all(isinstance(n, int) and 0 <= n <= 100 for n in v) and sum(v) == 100,
+                 f"mood bySubject {k}: must be three whole numbers adding up to 100")
         th = mood.get("themes") or []
         need(2 <= len(th) <= 5, "mood themes: 2 to 5")
         for i, t in enumerate(th):
@@ -273,6 +279,7 @@ def check(date):
             need(q.get("about") in ("player", "team", "manager", "board"), f"{w}: about must be player, team, manager or board")
             text(f"{w} subject", q.get("subject"), 30)
             need(q.get("kind") in ("opinion", "insight", "claim"), f"{w}: kind must be opinion, insight or claim")
+            need(q.get("tone") in ("positive", "mixed", "negative"), f"{w}: tone must be positive, mixed or negative")
             text(f"{w} text", q.get("text"), 200)
             need(len(str(q.get("text", "")).split()) <= 35, f"{w}: more than 35 words")
             need(str(q.get("handle", "")).startswith(("@", "u/")), f"{w}: handle must start with @ or u/")
