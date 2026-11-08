@@ -267,11 +267,12 @@ def check(date):
         for i, t in enumerate(th):
             text(f"mood theme {i + 1}", t, 140)
         qs = mood.get("quotes") or []
-        need(len(qs) <= 6, "mood quotes: 6 at most")
+        need(len(qs) <= 8, "mood quotes: 8 at most")
         for i, q in enumerate(qs):
             w = f"mood quote {i + 1}"
             need(q.get("about") in ("player", "team", "manager", "board"), f"{w}: about must be player, team, manager or board")
             text(f"{w} subject", q.get("subject"), 30)
+            need(q.get("kind") in ("opinion", "insight", "claim"), f"{w}: kind must be opinion, insight or claim")
             text(f"{w} text", q.get("text"), 200)
             need(len(str(q.get("text", "")).split()) <= 35, f"{w}: more than 35 words")
             need(str(q.get("handle", "")).startswith(("@", "u/")), f"{w}: handle must start with @ or u/")
