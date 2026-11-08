@@ -1,0 +1,297 @@
+{
+ "date": "2026-11-08",
+ "dayLabel": "Sunday 8 November 2026",
+ "dayType": "matchday",
+ "window": false,
+ "verdict": "Three games without a win. Palace away is a chance to stop it.",
+ "big": {
+  "value": "14:00",
+  "label": "Kick-off at Selhurst Park, UK time"
+ },
+ "posters": [
+  {
+   "tag": "LFC",
+   "headline": "Reds visit Palace after two losses",
+   "big": "0 in 3",
+   "summary": "Liverpool have no win in three and visit a Palace side missing Mateta. Gravenberch is the one doubt, Frimpong is out.",
+   "source": {
+    "name": "Liverpool FC",
+    "date": "6 Nov",
+    "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league"
+   },
+   "read": {
+    "what": "Kick-off is 2pm at Selhurst Park. Gravenberch has a heel problem and Iraola called it day-to-day. Frimpong has missed five games with a muscle issue. Bradley, Ekitike and Leoni are long-term absentees. Palace are without the suspended Mateta and the injured Sarr.",
+    "context": "Liverpool lost to Arsenal and then 3-2 at Fenerbahce, Iraola's first back-to-back defeats as manager. A win would also help in a congested top half: Liverpool are 6th on 15 points.",
+    "take": "Opinion: Palace are short up front and a win is the likely outcome, but Liverpool have thrown away leads twice this week. A predicted team is only a guess until the club names it at about 1pm."
+   }
+  }
+ ],
+ "stories": [
+  {
+   "tag": "LFC",
+   "headline": "Fenerbahce come from behind to beat Reds 3-2",
+   "summary": "Liverpool led twice in Istanbul and lost both leads within four minutes. Iraola called the goals cheap and messy.",
+   "source": {
+    "name": "Sky Sports",
+    "date": "5 Nov",
+    "url": "https://www.skysports.com/football/news/13607129/fenerbahce-3-2-liverpool-andoni-iraolas-side-lose-two-leads-in-istanbul-as-perfect-champions-league-start-ends"
+   },
+   "read": {
+    "what": "Nyoni scored on 25 minutes and Isak on 69. Greenwood (29), Brown (73) and Muriqi (79) replied for Fenerbahce. It was Liverpool's first European defeat this season. Iraola made five changes after the Arsenal loss.",
+    "context": "The defeat dropped Liverpool to eighth in the league phase on nine points, per The National. Set pieces were a problem again.",
+    "take": "Opinion: Rotation is a fair excuse for the first half, not for losing a lead twice in four minutes. Watch whether the starters are back at Palace."
+   }
+  },
+  {
+   "tag": "LFC",
+   "headline": "Liverpool linked with Brighton keeper Verbruggen",
+   "summary": "Football Insider says Liverpool are eyeing Bart Verbruggen as a possible Alisson successor. Iraola has talked about Alisson's future.",
+   "source": {
+    "name": "Football365",
+    "date": "7 Nov",
+    "url": "https://www.football365.com/news/liverpool-brighton-verbruggen-shock-transfer-alisson-concerns-kerkez"
+   },
+   "read": {
+    "what": "Football365 and CaughtOffside both cite Football Insider, which says Liverpool are turning attention to the 24-year-old Netherlands keeper. Football365 says he is an option if they need to replace Alisson.",
+    "context": "A LiveScore roundup says Iraola held talks about Alisson's future after what he called messy goals. Other keepers named in that roundup are Trafford, Costa and Verbruggen.",
+    "take": "Opinion: This is one source repeated, not a club move. Treat it as Tier 3 until a top outlet confirms. The next window is not until January."
+   }
+  },
+  {
+   "tag": "LFC",
+   "headline": "Frimpong reportedly open to Al-Hilal talks",
+   "summary": "Reports say the right-back, injured since 17 October, could talk to Al-Hilal about a January move. Nothing is confirmed.",
+   "source": {
+    "name": "TEAMtalk",
+    "date": "7 Nov",
+    "url": "https://www.teamtalk.com/liverpool/jeremie-frimpong-reaches-decision-exit-transfer-offer-made-saudi-arabia"
+   },
+   "read": {
+    "what": "TEAMtalk and Goal both trace this to Saudi outlet Win Win. Goal says intermediaries put him forward. TEAMtalk says no other source has confirmed it and Liverpool's price is unknown. He was left out of the Netherlands squad.",
+    "context": "He has a fresh muscle injury and has missed five games. He signed for about €40m, per Goal.",
+    "take": "Opinion: Weak sourcing. One search result headline says Al-Hilal ruled it out, which I could not open. Treat this as unproven."
+   }
+  },
+  {
+   "tag": "PL",
+   "headline": "Forest beat City 3-1, Arsenal lead by six",
+   "summary": "Nottingham Forest beat Manchester City 3-1, City's third league defeat in a row. Arsenal are top by six points.",
+   "source": {
+    "name": "ESPN",
+    "date": "7 Nov",
+    "url": "https://www.espn.com/soccer/story/_/id/50410354/manchester-city-nottingham-forest-premier-league-loss"
+   },
+   "read": {
+    "what": "Jair Cunha scored on 6 minutes and Liam Delap on 18 and 74. Cherki got City's goal. City had won their first seven league games.",
+    "context": "Arsenal lead on 27 points, City have 21 and Liverpool 15. Sky's table shows City ahead of Brighton, Chelsea, Everton and Liverpool.",
+    "take": "Opinion: City's slump helps Liverpool only if they win their own games. The gap to the top is now 12 points."
+   }
+  }
+ ],
+ "nextMatch": {
+  "opp": "Crystal Palace",
+  "comp": "Premier League",
+  "venue": "A",
+  "kickoff": "2026-11-08T14:00:00Z",
+  "teamNews": "Gravenberch doubt (heel). Frimpong out. Bradley, Ekitike, Leoni long-term. Palace: Mateta suspended, Sarr out.",
+  "likelyXI": [
+   "Alisson",
+   "Araujo",
+   "Van Dijk",
+   "Jacquet",
+   "Kerkez",
+   "Nyoni",
+   "Mac Allister",
+   "Wirtz",
+   "Barcola",
+   "Gakpo",
+   "Isak"
+  ],
+  "source": {
+   "name": "Last Word on Sports (predicted XI)",
+   "url": "https://lastwordonsports.com/football/2026/11/07/crystal-palace-vs-liverpool/"
+  }
+ },
+ "fixtures": [
+  {
+   "opp": "Crystal Palace",
+   "comp": "Premier League",
+   "venue": "A",
+   "date": "Sun 8 Nov",
+   "time": "14:00"
+  },
+  {
+   "opp": "Manchester United",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Sun 22 Nov",
+   "time": "16:30"
+  },
+  {
+   "opp": "Club Brugge",
+   "comp": "Champions League",
+   "venue": "A",
+   "date": "Wed 25 Nov",
+   "time": "20:00"
+  }
+ ],
+ "table": {
+  "asOf": "7 Nov",
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/premier-league-table"
+  },
+  "rows": [
+   {
+    "pos": 1,
+    "team": "Arsenal",
+    "played": 10,
+    "gd": 10,
+    "pts": 27
+   },
+   {
+    "pos": 2,
+    "team": "Manchester City",
+    "played": 10,
+    "gd": 8,
+    "pts": 21
+   },
+   {
+    "pos": 3,
+    "team": "Brighton",
+    "played": 9,
+    "gd": 17,
+    "pts": 19
+   },
+   {
+    "pos": 4,
+    "team": "Chelsea",
+    "played": 9,
+    "gd": 4,
+    "pts": 16
+   },
+   {
+    "pos": 5,
+    "team": "Everton",
+    "played": 10,
+    "gd": 2,
+    "pts": 16
+   },
+   {
+    "pos": 6,
+    "team": "Liverpool",
+    "played": 9,
+    "gd": 2,
+    "pts": 15
+   }
+  ]
+ },
+ "injuries": [
+  {
+   "player": "Ryan Gravenberch",
+   "issue": "Heel problem",
+   "status": "doubt",
+   "expected": "Day-to-day",
+   "source": {
+    "name": "Liverpool FC",
+    "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league"
+   }
+  },
+  {
+   "player": "Jeremie Frimpong",
+   "issue": "Muscle injury",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "Liverpool FC",
+    "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league"
+   }
+  },
+  {
+   "player": "Conor Bradley",
+   "issue": "Long-term injury",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "Liverpool FC",
+    "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league"
+   }
+  },
+  {
+   "player": "Hugo Ekitike",
+   "issue": "Long-term injury",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "Liverpool FC",
+    "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league"
+   }
+  },
+  {
+   "player": "Giovanni Leoni",
+   "issue": "Long-term injury",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "Liverpool FC",
+    "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league"
+   }
+  }
+ ],
+ "tracker": [
+  {
+   "id": "gk-verbruggen",
+   "player": "Bart Verbruggen",
+   "position": "Goalkeeper",
+   "club": "Brighton",
+   "move": "in",
+   "status": "warm",
+   "tier": 3,
+   "reportedBy": [
+    {
+     "outlet": "Football365",
+     "journalist": "",
+     "date": "2026-11-07",
+     "url": "https://www.football365.com/news/liverpool-brighton-verbruggen-shock-transfer-alisson-concerns-kerkez"
+    },
+    {
+     "outlet": "CaughtOffside",
+     "journalist": "Saikat",
+     "date": "2026-11-07",
+     "url": "https://caughtoffside.com/2026/11/07/liverpool-identify-24-year-old-premier-league-star-ahead-of-next-summers-transfer-window"
+    }
+   ],
+   "firstSeen": "2026-11-07",
+   "lastChange": "2026-11-07",
+   "update": "New today. Both reports cite Football Insider."
+  },
+  {
+   "id": "rb-frimpong-al-hilal",
+   "player": "Jeremie Frimpong",
+   "position": "Right-back",
+   "club": "Liverpool",
+   "move": "out",
+   "status": "warm",
+   "tier": 3,
+   "reportedBy": [
+    {
+     "outlet": "TEAMtalk",
+     "journalist": "James Holland",
+     "date": "2026-11-07",
+     "url": "https://www.teamtalk.com/liverpool/jeremie-frimpong-reaches-decision-exit-transfer-offer-made-saudi-arabia"
+    },
+    {
+     "outlet": "Goal",
+     "journalist": "",
+     "date": "2026-11-07",
+     "url": "https://www.goal.com/en-gb/news/liverpool-defender-jeremie-frimpong-offered-al-hilal-shock-anfield-exit-transfer/blt9100ab91daea14c4"
+    }
+   ],
+   "firstSeen": "2026-11-07",
+   "lastChange": "2026-11-07",
+   "update": "New today. Both trace it to Win Win. Unconfirmed."
+  }
+ ],
+ "talking": [],
+ "xlist": []
+}
