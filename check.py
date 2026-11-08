@@ -253,6 +253,32 @@ def check(date):
         text(f"{w} thread date", th.get("date"), 12)
         url(f"{w} thread", th.get("url"), "x.com")
 
+    mood = b.get("mood")
+    if mood is not None:
+        need(mood.get("word") in ("positive", "mixed", "frustrated", "angry"), "mood: word must be positive, mixed, frustrated or angry")
+        sp = mood.get("split") or {}
+        parts = [sp.get(k) for k in ("positive", "mixed", "negative")]
+        need(all(isinstance(v, int) and 0 <= v <= 100 for v in parts), "mood split: positive, mixed and negative must be whole numbers")
+        if all(isinstance(v, int) for v in parts):
+            need(sum(parts) == 100, f"mood split: adds up to {sum(parts)}, must be 100")
+        text("mood basis", mood.get("basis"), 90)
+        th = mood.get("themes") or []
+        need(2 <= len(th) <= 5, "mood themes: 2 to 5")
+        for i, t in enumerate(th):
+            text(f"mood theme {i + 1}", t, 140)
+        qs = mood.get("quotes") or []
+        need(len(qs) <= 6, "mood quotes: 6 at most")
+        for i, q in enumerate(qs):
+            w = f"mood quote {i + 1}"
+            need(q.get("about") in ("player", "team", "manager", "board"), f"{w}: about must be player, team, manager or board")
+            text(f"{w} subject", q.get("subject"), 30)
+            text(f"{w} text", q.get("text"), 200)
+            need(len(str(q.get("text", "")).split()) <= 35, f"{w}: more than 35 words")
+            need(str(q.get("handle", "")).startswith(("@", "u/")), f"{w}: handle must start with @ or u/")
+            text(f"{w} handle", q.get("handle"), 40)
+            u = str(q.get("url") or "")
+            need(u.startswith(("https://x.com/", "https://www.reddit.com/", "https://reddit.com/")), f"{w}: url must be on x.com or reddit.com")
+
 
 def render(date):
     chrome = next(filter(None, map(shutil.which, ["google-chrome", "chromium"])), None) \
@@ -272,6 +298,8 @@ def render(date):
     need('class="tracker' in out, "page did not render the rumour tracker")
     need('data-opening="' in out, "page did not start its opening world")
     need('class="err"' not in out, "page showed its error message")
+    if json.loads((ROOT / "briefs" / f"{date}.json").read_text()).get("mood"):
+        need('class="mood"' in out, "page did not render the fan mood")
 
 
 class QuietHandler(http.server.SimpleHTTPRequestHandler):
