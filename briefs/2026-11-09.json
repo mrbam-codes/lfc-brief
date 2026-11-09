@@ -1,0 +1,374 @@
+{
+ "date": "2026-11-09",
+ "dayLabel": "Monday 9 November 2026",
+ "dayType": "postmatch",
+ "window": false,
+ "verdict": "Back to winning ways at Palace. Szoboszlai's knee is the worry.",
+ "big": {
+  "value": "3-1",
+  "label": "Win at Crystal Palace, 8 Nov"
+ },
+ "posters": [
+  {
+   "tag": "LFC",
+   "headline": "Reds beat Palace 3-1 at Selhurst",
+   "big": "3-1",
+   "summary": "Mac Allister, Wirtz and Isak scored. Nketiah got a late penalty. Liverpool climb to fourth on 18 points.",
+   "source": {
+    "name": "Liverpool FC",
+    "date": "8 Nov",
+    "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-premier-league-match-report"
+   },
+   "read": {
+    "what": "Mac Allister headed in a Szoboszlai free-kick in the first half. Wirtz made it 2-0 early in the second (54' per NBC Sports). Isak scored in the 89th minute. Nketiah scored a stoppage-time penalty. A Strand Larsen goal for Palace was ruled out for offside. Sources differ on the minute of the first goal.",
+    "context": "It ended two straight defeats, Iraola's first back-to-back losses as Liverpool manager. Liverpool have 18 points from 10 games, three behind City and four behind Brighton. Palace are bottom.",
+    "take": "Opinion: a deserved result, but the first half was shaky and Alisson made key saves. Three points matter more than the style. Watch whether the midfield balance holds against stronger sides."
+   }
+  },
+  {
+   "tag": "LFC",
+   "headline": "Szoboszlai doubtful, knee issue",
+   "big": "",
+   "summary": "Iraola says Szoboszlai hyper-extended his knee and was not 100%. Hungary duty is in doubt.",
+   "source": {
+    "name": "Live4Liverpool",
+    "date": "8 Nov",
+    "url": "https://live4liverpool.com/andoni-iraola-speaks-out-on-dominik-szoboszlai-injury-after-midfielder-limps-off-vs-palace/"
+   },
+   "read": {
+    "what": "Iraola said Szoboszlai hyper-extended the knee a little and was not 100 per cent. He said the player will want to join Hungary and that both clubs' medical staff will assess him. No scan result or timeline has been given.",
+    "context": "Szoboszlai set up the first goal and went off in the second half. Liverpool face Man United on 22 Nov, so the break gives time to recover if he rests.",
+    "take": "Opinion: the injury looks minor so far, but it is unproven. Watch whether Hungary use him. Iraola's preference to avoid a repeat of the last break is a hint he would rather he stayed."
+   }
+  }
+ ],
+ "stories": [
+  {
+   "tag": "PL",
+   "headline": "Palace expected to sack Sage, Frank favourite",
+   "summary": "Palace are bottom after a seventh league defeat. Sky Sports names Thomas Frank as leading candidate. No decision yet.",
+   "source": {
+    "name": "Sky Sports",
+    "date": "8 Nov",
+    "url": "https://www.skysports.com/football/news/13609990/thomas-frank-former-spurs-and-brentford-boss-leading-contender-to-take-over-at-crystal-palace-if-pierre-sage-is-sacked"
+   },
+   "read": {
+    "what": "Sky Sports says Sage is likely to be sacked and Frank is the leading contender. Dyche, Lampard and others are also on Palace's list. Jamie Carragher expects Sage to go before the next game. Nothing is confirmed by the club.",
+    "context": "Sage replaced Glasner in the summer. Palace face Liverpool's rivals after the break with a new manager possible.",
+    "take": "Opinion: a sacking looks likely but is a report, not a fact, until Palace confirm it."
+   }
+  }
+ ],
+ "lastMatch": {
+  "opp": "Crystal Palace",
+  "comp": "Premier League",
+  "venue": "A",
+  "us": 3,
+  "them": 1,
+  "date": "8 Nov",
+  "events": [
+   {
+    "min": "18",
+    "type": "goal",
+    "side": "lfc",
+    "text": "Mac Allister header from Szoboszlai free-kick"
+   },
+   {
+    "min": "54",
+    "type": "goal",
+    "side": "lfc",
+    "text": "Wirtz first-time finish"
+   },
+   {
+    "min": "89",
+    "type": "goal",
+    "side": "lfc",
+    "text": "Isak scores"
+   },
+   {
+    "min": "90+5",
+    "type": "pen",
+    "side": "opp",
+    "text": "Nketiah penalty after Kerkez clash"
+   }
+  ],
+  "source": {
+   "name": "Liverpool FC",
+   "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-premier-league-match-report"
+  }
+ },
+ "nextMatch": {
+  "opp": "Manchester United",
+  "comp": "Premier League",
+  "venue": "H",
+  "kickoff": "2026-11-22T16:30:00Z",
+  "teamNews": "Szoboszlai knee a doubt; Gravenberch, Frimpong out. Lineup unannounced.",
+  "likelyXI": [],
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november"
+  }
+ },
+ "fixtures": [
+  {
+   "opp": "Manchester United",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Sun 22 Nov",
+   "time": "16:30"
+  },
+  {
+   "opp": "Everton",
+   "comp": "Premier League",
+   "venue": "A",
+   "date": "Sat 28 Nov",
+   "time": "15:00"
+  },
+  {
+   "opp": "Sunderland",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Wed 2 Dec",
+   "time": "20:00"
+  }
+ ],
+ "table": {
+  "asOf": "8 Nov",
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/football/crystal-palace-vs-liverpool/table/559536"
+  },
+  "rows": [
+   {
+    "pos": 1,
+    "team": "Arsenal",
+    "played": 10,
+    "gd": 10,
+    "pts": 27
+   },
+   {
+    "pos": 2,
+    "team": "Brighton",
+    "played": 10,
+    "gd": 19,
+    "pts": 22
+   },
+   {
+    "pos": 3,
+    "team": "Man City",
+    "played": 10,
+    "gd": 8,
+    "pts": 21
+   },
+   {
+    "pos": 4,
+    "team": "Liverpool",
+    "played": 10,
+    "gd": 4,
+    "pts": 18
+   },
+   {
+    "pos": 5,
+    "team": "Chelsea",
+    "played": 10,
+    "gd": 3,
+    "pts": 16
+   },
+   {
+    "pos": 6,
+    "team": "Everton",
+    "played": 10,
+    "gd": 2,
+    "pts": 16
+   }
+  ]
+ },
+ "injuries": [
+  {
+   "player": "Dominik Szoboszlai",
+   "issue": "Knee (hyper-extended)",
+   "status": "doubt",
+   "expected": "Unknown",
+   "source": {
+    "name": "Live4Liverpool",
+    "url": "https://live4liverpool.com/andoni-iraola-speaks-out-on-dominik-szoboszlai-injury-after-midfielder-limps-off-vs-palace/"
+   }
+  },
+  {
+   "player": "Ryan Gravenberch",
+   "issue": "Heel",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "LFC Globe",
+    "url": "https://lfcglobe.co.uk/liverpool-fc-injury-list/"
+   }
+  },
+  {
+   "player": "Jeremie Frimpong",
+   "issue": "Muscle",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "LFC Globe",
+    "url": "https://lfcglobe.co.uk/liverpool-fc-injury-list/"
+   }
+  },
+  {
+   "player": "Hugo Ekitike",
+   "issue": "Achilles",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "LFC Globe",
+    "url": "https://lfcglobe.co.uk/liverpool-fc-injury-list/"
+   }
+  },
+  {
+   "player": "Conor Bradley",
+   "issue": "Long-term",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "LFC Globe",
+    "url": "https://lfcglobe.co.uk/liverpool-fc-injury-list/"
+   }
+  },
+  {
+   "player": "Giovanni Leoni",
+   "issue": "Long-term",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "LFC Globe",
+    "url": "https://lfcglobe.co.uk/liverpool-fc-injury-list/"
+   }
+  }
+ ],
+ "tracker": [],
+ "talking": [
+  {
+   "headline": "Late Palace penalty and long VAR check",
+   "summary": "Referee Harrington gave a stoppage-time penalty for Kerkez and Osorio. Iraola was very upset.",
+   "for": "Palace: there was contact in the box when Kerkez and Osorio jumped for the header, and the referee pointed to the spot.",
+   "against": "Iraola: it was a clash of heads, both players went for the ball, and similar contact in Palace's box is not given. He said the VAR check took a long time.",
+   "take": "Opinion: it cost a clean sheet, not points, so it is a grumble not a grievance. No official explanation was published in the sources I opened.",
+   "call": "PENALTY GIVEN",
+   "source": {
+    "name": "beIN Sports",
+    "date": "8 Nov",
+    "url": "https://www.beinsports.com/en-asia/football/premier-league/articles/iraola-very-upset-with-palace-penalty-that-cost-liverpool-clean-sheet-2026-11-08"
+   }
+  }
+ ],
+ "xlist": [
+  {
+   "handle": "@LewisSteele_",
+   "kind": "performance",
+   "headline": "Iraola: Szoboszlai managing knee issue",
+   "summary": "Reports Iraola said Szoboszlai extended his knee slightly and is a doubt for Hungary.",
+   "trust": "Plausible",
+   "thread": {
+    "date": "8 Nov",
+    "url": "https://x.com/LewisSteele_/status/2119468188547096744"
+   }
+  },
+  {
+   "handle": "@JamesPearceLFC",
+   "kind": "performance",
+   "headline": "Reds lucky at half-time, better after break",
+   "summary": "Pearce says Liverpool were fortunate to lead at the break but improved with Wirtz and Isak goals.",
+   "trust": "Opinion",
+   "thread": {
+    "date": "8 Nov",
+    "url": "https://x.com/JamesPearceLFC/status/2119459216704291294"
+   }
+  },
+  {
+   "handle": "@SamiMokbel_BBC",
+   "kind": "transfer",
+   "headline": "Palace weighing Frank and Dyche for Sage job",
+   "summary": "Mokbel says Sage is close to losing his job, with Frank a strong contender.",
+   "trust": "Plausible",
+   "thread": {
+    "date": "8 Nov",
+    "url": "https://x.com/SamiMokbel_BBC/status/2119535181744767359"
+   }
+  }
+ ],
+ "mood": {
+  "word": "mixed",
+  "split": {
+   "positive": 55,
+   "mixed": 30,
+   "negative": 15
+  },
+  "bySubject": {
+   "player": [
+    60,
+    25,
+    15
+   ],
+   "team": [
+    50,
+    35,
+    15
+   ],
+   "manager": [
+    55,
+    30,
+    15
+   ],
+   "board": [
+    40,
+    40,
+    20
+   ]
+  },
+  "basis": "About 40 posts on X since Saturday; Reddit was blocked",
+  "themes": [
+   "Fans welcomed the three points after a poor week.",
+   "Many were unhappy with a sluggish first half and leaning on Alisson.",
+   "The late penalty drew heavy criticism of the referee.",
+   "Szoboszlai's knee worries fans before the break."
+  ],
+  "quotes": [
+   {
+    "about": "player",
+    "subject": "Alisson",
+    "kind": "opinion",
+    "tone": "positive",
+    "text": "That was Alisson back to his best yesterday, Crystal Palace could of scored atleast 3 goals.",
+    "handle": "@LiverpoolNowHQ",
+    "url": "https://x.com/LiverpoolNowHQ/status/2119681371895406681"
+   },
+   {
+    "about": "team",
+    "subject": "The team",
+    "kind": "opinion",
+    "tone": "mixed",
+    "text": "I find our celebrations a little lack lustre, all the players should be sprinting over to the goal scorer. No one even goes over to Wirtz when he scores.",
+    "handle": "@Maxi_1892",
+    "url": "https://x.com/Maxi_1892/status/2119536901250040058"
+   },
+   {
+    "about": "team",
+    "subject": "The referee",
+    "kind": "opinion",
+    "tone": "negative",
+    "text": "That pen should not have been given. Woeful refereeing yet again",
+    "handle": "@mia_jake9",
+    "url": "https://x.com/mia_jake9/status/2119459349978636312"
+   },
+   {
+    "about": "player",
+    "subject": "Alexander Isak",
+    "kind": "opinion",
+    "tone": "positive",
+    "text": "ISAK'S A RED OLE, OLE",
+    "handle": "@DaveOCKOP",
+    "url": "https://x.com/DaveOCKOP/status/2119529148456620187"
+   }
+  ]
+ }
+}
