@@ -1,0 +1,362 @@
+{
+ "date": "2026-11-10",
+ "dayLabel": "Tuesday 10 November 2026",
+ "dayType": "quiet",
+ "window": false,
+ "verdict": "Quiet break. Van Dijk and Szoboszlai are fitness worries before Man United.",
+ "big": {
+  "value": "12 days",
+  "label": "To Man United at Anfield, 22 Nov"
+ },
+ "posters": [
+  {
+   "tag": "LFC",
+   "headline": "Van Dijk pulls out of Dutch squad",
+   "big": "",
+   "summary": "The Netherlands say he did not return fit from the win at Palace. He misses games with Greece and Germany.",
+   "source": {
+    "name": "Liverpool FC",
+    "date": "9 Nov",
+    "url": "https://www.liverpoolfc.com/news/virgil-van-dijk-withdraws-from-netherlands-squad"
+   },
+   "read": {
+    "what": "Liverpool's site says Van Dijk has withdrawn from the Netherlands squad for the games against Greece and Germany. The Dutch statement says he did not return fit from Sunday's win at Crystal Palace. The club calls it a fitness issue. No scan or timeline has been given.",
+    "context": "Liverpool's next game is Man United at Anfield on 22 November. Szoboszlai is also a doubt, so two key players are being watched during the break.",
+    "take": "Opinion: withdrawing from international duty looks like caution, not a long layoff. That is a reading, not a fact. Watch for any club update on his fitness before 22 November."
+   }
+  },
+  {
+   "tag": "LFC",
+   "headline": "Alisson says he wants to stay",
+   "big": "",
+   "summary": "His contract ends in 2027. Alisson says his agent is talking to the club and his will is to stay.",
+   "source": {
+    "name": "Sky Sports",
+    "date": "9 Nov",
+    "url": "https://www.skysports.com/football/news/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season"
+   },
+   "read": {
+    "what": "Sky Sports reports Alisson said 'my will is to stay'. His contract runs out at the end of this season after Liverpool triggered a one-year option in March. He says he has not talked to the club himself but his agent is. Sky says talks are ongoing behind the scenes.",
+    "context": "A goalkeeper on an expiring deal would be free to talk to foreign clubs in January. A new deal would settle one of the squad's biggest contract questions.",
+    "take": "Opinion: warm words, no agreement yet. The player and club both seem keen, but nothing is signed. Watch for an official announcement."
+   }
+  }
+ ],
+ "stories": [
+  {
+   "tag": "LFC",
+   "headline": "Szoboszlai knee tests during break",
+   "summary": "Hungary said he was being tested on Monday. Iraola hopes he is in a better place in two weeks.",
+   "source": {
+    "name": "Anfield Index",
+    "date": "9 Nov",
+    "url": "https://anfieldindex.com/103119/liverpool-receive-new-dominik-szoboszlai-injury-update-ahead-of-international-break.html"
+   },
+   "read": {
+    "what": "Szoboszlai came off in the 69th minute at Palace with a knee problem. Hungary said he was undergoing tests on Monday. Iraola said he extended the knee a little and was not 100%. The report gives no result.",
+    "context": "He missed five games with a thigh problem after the last international break. Liverpool face Man United on 22 November.",
+    "take": "Opinion: no result is public yet, so treat it as unknown. Watch whether Hungary play him."
+   }
+  },
+  {
+   "tag": "PL",
+   "headline": "Man United intend to sack Carrick",
+   "summary": "Ornstein says United plan to remove Carrick. The club says no final decision. A change is expected before Liverpool.",
+   "source": {
+    "name": "TEAMtalk",
+    "date": "9 Nov",
+    "url": "https://www.teamtalk.com/news/man-utd-will-sack-michael-carrick-and-have-shortlisted-three-managers-david-ornstein"
+   },
+   "read": {
+    "what": "TEAMtalk reports Ornstein's claim that United intend to relieve Michael Carrick of duties. The club says no final decision. Pochettino, Howe and Nagelsmann are reported as a shortlist. United have 8 points from 10 league games.",
+    "context": "Liverpool host United on 22 November. A new manager could change how they play.",
+    "take": "Opinion: Ornstein is a top source, but the club has not confirmed it. A new manager's first game is often unpredictable."
+   }
+  }
+ ],
+ "nextMatch": {
+  "opp": "Manchester United",
+  "comp": "Premier League",
+  "venue": "H",
+  "kickoff": "2026-11-22T16:30:00Z",
+  "teamNews": "Szoboszlai knee a doubt; Gravenberch, Frimpong out. Lineup unannounced.",
+  "likelyXI": [],
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november"
+  }
+ },
+ "fixtures": [
+  {
+   "opp": "Manchester United",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Sun 22 Nov",
+   "time": "16:30"
+  },
+  {
+   "opp": "Everton",
+   "comp": "Premier League",
+   "venue": "A",
+   "date": "Sat 28 Nov",
+   "time": "15:00"
+  },
+  {
+   "opp": "Sunderland",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Wed 2 Dec",
+   "time": "20:00"
+  }
+ ],
+ "table": {
+  "asOf": "8 Nov",
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/football/crystal-palace-vs-liverpool/table/559536"
+  },
+  "rows": [
+   {
+    "pos": 1,
+    "team": "Arsenal",
+    "played": 10,
+    "gd": 10,
+    "pts": 27
+   },
+   {
+    "pos": 2,
+    "team": "Brighton",
+    "played": 10,
+    "gd": 19,
+    "pts": 22
+   },
+   {
+    "pos": 3,
+    "team": "Man City",
+    "played": 10,
+    "gd": 8,
+    "pts": 21
+   },
+   {
+    "pos": 4,
+    "team": "Liverpool",
+    "played": 10,
+    "gd": 4,
+    "pts": 18
+   },
+   {
+    "pos": 5,
+    "team": "Chelsea",
+    "played": 10,
+    "gd": 3,
+    "pts": 16
+   },
+   {
+    "pos": 6,
+    "team": "Everton",
+    "played": 10,
+    "gd": 2,
+    "pts": 16
+   }
+  ]
+ },
+ "injuries": [
+  {
+   "player": "Virgil van Dijk",
+   "issue": "Minor fitness issue",
+   "status": "doubt",
+   "expected": "Unknown",
+   "source": {
+    "name": "Liverpool FC",
+    "url": "https://www.liverpoolfc.com/news/virgil-van-dijk-withdraws-from-netherlands-squad"
+   }
+  },
+  {
+   "player": "Dominik Szoboszlai",
+   "issue": "Knee (hyper-extended)",
+   "status": "doubt",
+   "expected": "Unknown",
+   "source": {
+    "name": "Anfield Index",
+    "url": "https://anfieldindex.com/103119/liverpool-receive-new-dominik-szoboszlai-injury-update-ahead-of-international-break.html"
+   }
+  },
+  {
+   "player": "Ryan Gravenberch",
+   "issue": "Heel",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "LFC Globe",
+    "url": "https://lfcglobe.co.uk/liverpool-fc-injury-list/"
+   }
+  },
+  {
+   "player": "Jeremie Frimpong",
+   "issue": "Muscle",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "LFC Globe",
+    "url": "https://lfcglobe.co.uk/liverpool-fc-injury-list/"
+   }
+  },
+  {
+   "player": "Hugo Ekitike",
+   "issue": "Achilles",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "LFC Globe",
+    "url": "https://lfcglobe.co.uk/liverpool-fc-injury-list/"
+   }
+  },
+  {
+   "player": "Conor Bradley",
+   "issue": "Long-term",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "LFC Globe",
+    "url": "https://lfcglobe.co.uk/liverpool-fc-injury-list/"
+   }
+  },
+  {
+   "player": "Giovanni Leoni",
+   "issue": "Long-term",
+   "status": "out",
+   "expected": "Unknown",
+   "source": {
+    "name": "LFC Globe",
+    "url": "https://lfcglobe.co.uk/liverpool-fc-injury-list/"
+   }
+  }
+ ],
+ "tracker": [
+  {
+   "id": "alisson-new-contract",
+   "player": "Alisson Becker",
+   "position": "Goalkeeper",
+   "club": "Liverpool",
+   "move": "contract",
+   "status": "warm",
+   "tier": 2,
+   "reportedBy": [
+    {
+     "outlet": "Sky Sports",
+     "journalist": "",
+     "origin": "Alisson interview",
+     "date": "2026-11-09",
+     "url": "https://www.skysports.com/football/news/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season"
+    }
+   ],
+   "firstSeen": "2026-11-09",
+   "lastChange": "2026-11-10",
+   "update": "Alisson says his agent is in talks and he wants to stay. No deal agreed."
+  }
+ ],
+ "talking": [],
+ "xlist": [
+  {
+   "handle": "@LewisSteele_",
+   "kind": "performance",
+   "headline": "Van Dijk pulls out, niggle since LASK",
+   "summary": "Steele says Van Dijk has managed a niggle for weeks, going back to the LASK game.",
+   "trust": "Plausible",
+   "thread": {
+    "date": "9 Nov",
+    "url": "https://x.com/LewisSteele_/status/2119837030867935623"
+   }
+  },
+  {
+   "handle": "@ptgorst",
+   "kind": "performance",
+   "headline": "Szoboszlai tests for Hungary",
+   "summary": "Gorst says Szoboszlai has tests on Monday to see if he can play for Hungary.",
+   "trust": "Plausible",
+   "thread": {
+    "date": "9 Nov",
+    "url": "https://x.com/ptgorst/status/2119732619596403189"
+   }
+  },
+  {
+   "handle": "@ptgorst",
+   "kind": "transfer",
+   "headline": "Alisson agent in talks, keen to extend",
+   "summary": "Gorst reports Alisson's agent is talking to Liverpool and he wants to extend.",
+   "trust": "Confirmed",
+   "thread": {
+    "date": "9 Nov",
+    "url": "https://x.com/ptgorst/status/2119761937303278007"
+   }
+  },
+  {
+   "handle": "@David_Ornstein",
+   "kind": "transfer",
+   "headline": "Man United intend to sack Carrick",
+   "summary": "Ornstein says United plan to remove Carrick, with a change expected before the Liverpool game.",
+   "trust": "Confirmed",
+   "thread": {
+    "date": "9 Nov",
+    "url": "https://x.com/David_Ornstein/status/2119912704416907301"
+   }
+  }
+ ],
+ "mood": {
+  "word": "mixed",
+  "split": {
+   "positive": 55,
+   "mixed": 30,
+   "negative": 15
+  },
+  "bySubject": {
+   "player": [
+    60,
+    25,
+    15
+   ],
+   "team": [
+    70,
+    20,
+    10
+   ],
+   "manager": [
+    50,
+    40,
+    10
+   ],
+   "board": [
+    40,
+    30,
+    30
+   ]
+  },
+  "basis": "About 40 posts on X since Sunday, little Reddit",
+  "themes": [
+   "Fans are pleased with the 3-1 win at Palace and Isak's form.",
+   "Worry over Van Dijk's niggle and Szoboszlai's knee.",
+   "Alisson's wish to stay is welcomed.",
+   "Some see a Man United manager change before Anfield."
+  ],
+  "quotes": [
+   {
+    "about": "player",
+    "subject": "Alisson",
+    "kind": "opinion",
+    "tone": "positive",
+    "text": "I can genuinely see these two retiring at Liverpool Football Club.",
+    "handle": "@FPL_Wirtz",
+    "url": "https://x.com/FPL_Wirtz/status/2120042935626478029"
+   },
+   {
+    "about": "player",
+    "subject": "Van Dijk",
+    "kind": "opinion",
+    "tone": "negative",
+    "text": "Giving Van Dijk a contract extension right now is pure nostalgia over logic.",
+    "handle": "@Lfcextension",
+    "url": "https://x.com/Lfcextension/status/2118984706750402916"
+   }
+  ]
+ }
+}
