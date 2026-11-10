@@ -392,7 +392,10 @@ def render(date):
     need('class="tracker' in out, "page did not render the rumour tracker")
     need('data-opening="' in out, "page did not start its opening world")
     need('class="err"' not in out, "page showed its error message")
-    if json.loads((ROOT / "briefs" / f"{date}.json").read_text()).get("mood"):
+    b = json.loads((ROOT / "briefs" / f"{date}.json").read_text())
+    want, cards = len(b.get("posters") or []) + len(b.get("stories") or []), len(re.findall(r'class="rb-cd[ "]', out))
+    need(cards == want, f"Today deck shows {cards} story cards, the brief has {want} stories (posters included)")
+    if b.get("mood"):
         need('class="mood"' in out, "page did not render the fan mood")
 
 
