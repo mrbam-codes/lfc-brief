@@ -1,0 +1,145 @@
+{
+ "date": "2026-11-11",
+ "dayLabel": "Wednesday 11 November 2026",
+ "dayType": "quiet",
+ "window": false,
+ "verdict": "Quiet break. Van Dijk keeps calm on his future and five players are out or doubtful.",
+ "big": {"value": "11 days", "label": "To Man United at Anfield, 22 Nov"},
+ "posters": [
+  {
+   "tag": "LFC",
+   "headline": "Van Dijk: no panic over my future",
+   "big": "",
+   "summary": "His deal ends next summer. He says he wants to keep playing and there is nothing to report.",
+   "source": {"name": "ESPN", "date": "10 Nov", "url": "https://www.espn.com/soccer/story/_/id/50441941/virgil-van-dijk-liverpool-future"},
+   "read": {
+    "what": "ESPN says Van Dijk told reporters 'Let's see. I'm not in any panic.' He said he wants to keep playing and, if he does not stay, 'I will go somewhere else', but 'there's nothing to report at the moment'. His contract runs out next summer after a two-year extension in April 2024.",
+    "context": "Alisson is also in the last year of his deal and wants to stay. Two senior players on expiring contracts is a real squad-planning question, and both can talk to foreign clubs in January.",
+    "take": "Opinion: this is calm, not a done deal either way. He did not rule out leaving, and no talks are reported for him. Watch for any club comment before the January window."
+   }
+  },
+  {
+   "tag": "LFC",
+   "headline": "Injury list before Man United",
+   "big": "",
+   "summary": "Van Dijk, Szoboszlai, Gravenberch and Frimpong are all doubts or out. Bradley is close to training.",
+   "source": {"name": "Yahoo Sports", "date": "10 Nov", "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"},
+   "read": {
+    "what": "The report, citing the Evening Standard, says Van Dijk withdrew from the Netherlands squad and Szoboszlai (knee) awaits assessment with Hungary. Gravenberch (heel) is a major doubt and Frimpong has a new muscle injury. Bradley is close to group work. Leoni and Ekitike are targeted for December.",
+    "context": "Liverpool host Man United on 22 November. The break gives the injured a fortnight, but a thin squad has little cover in midfield and at right-back.",
+    "take": "Opinion: return dates in these round-ups are estimates, not club statements. I could not open the Evening Standard original, so treat the timings with caution. Watch the club's pre-match team news."
+   }
+  }
+ ],
+ "stories": [
+  {
+   "tag": "PL",
+   "headline": "Man United reportedly set to sack Carrick",
+   "summary": "AFP says United lean towards dismissal but no final decision is made. Four names are linked.",
+   "source": {"name": "Yahoo News Singapore (AFP)", "date": "10 Nov", "url": "https://sg.news.yahoo.com/carrick-set-sacked-man-utd-110444768.html"},
+   "read": {
+    "what": "AFP reports, citing unnamed 'reports on Tuesday', that Berrada and Wilcox lean towards sacking Carrick. The Glazers and Jim Ratcliffe would have the final say. Pochettino, Howe, Conte and Nagelsmann are linked. No club statement is in the article.",
+    "context": "United visit Anfield on 22 November and have the break to find a replacement.",
+    "take": "Opinion: this repeats earlier reporting and adds no club confirmation. A new manager would make United harder to predict. Watch for an official announcement."
+   }
+  }
+ ],
+ "nextMatch": {
+  "opp": "Manchester United",
+  "comp": "Premier League",
+  "venue": "H",
+  "kickoff": "2026-11-22T16:30:00Z",
+  "teamNews": "Van Dijk, Szoboszlai doubts; Gravenberch major doubt; Frimpong out. Sky lists 16:00 and 16:30.",
+  "likelyXI": [],
+  "source": {"name": "Sky Sports", "url": "https://www.skysports.com/liverpool"}
+ },
+ "fixtures": [
+  {"opp": "Manchester United", "comp": "Premier League", "venue": "H", "date": "Sun 22 Nov", "time": "16:30"},
+  {"opp": "Sunderland", "comp": "Premier League", "venue": "H", "date": "Wed 2 Dec", "time": "19:00"},
+  {"opp": "Tottenham Hotspur", "comp": "Premier League", "venue": "H", "date": "Sat 19 Dec", "time": "17:00"}
+ ],
+ "table": {
+  "asOf": "8 Nov",
+  "source": {"name": "Sky Sports", "url": "https://www.skysports.com/premier-league-table"},
+  "rows": [
+   {"pos": 1, "team": "Arsenal", "played": 10, "gd": 10, "pts": 27},
+   {"pos": 2, "team": "Brighton", "played": 10, "gd": 19, "pts": 22},
+   {"pos": 3, "team": "Man City", "played": 10, "gd": 8, "pts": 21},
+   {"pos": 4, "team": "Liverpool", "played": 10, "gd": 4, "pts": 18},
+   {"pos": 5, "team": "Chelsea", "played": 10, "gd": 3, "pts": 16},
+   {"pos": 6, "team": "Everton", "played": 10, "gd": 2, "pts": 16}
+  ]
+ },
+ "injuries": [
+  {"player": "Virgil van Dijk", "issue": "Fitness, left Dutch squad", "status": "doubt", "expected": "Possibly 22 Nov", "source": {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"}},
+  {"player": "Dominik Szoboszlai", "issue": "Knee, awaiting assessment", "status": "doubt", "expected": "Possibly 22 Nov", "source": {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"}},
+  {"player": "Ryan Gravenberch", "issue": "Heel", "status": "doubt", "expected": "Major doubt for 22 Nov", "source": {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"}},
+  {"player": "Jeremie Frimpong", "issue": "Muscle", "status": "out", "expected": "Possibly 22 Nov", "source": {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"}},
+  {"player": "Hugo Ekitike", "issue": "Achilles", "status": "out", "expected": "December", "source": {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"}},
+  {"player": "Conor Bradley", "issue": "Knee", "status": "out", "expected": "Possibly 2 Dec", "source": {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"}},
+  {"player": "Giovanni Leoni", "issue": "Knee, ACL", "status": "out", "expected": "December", "source": {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"}}
+ ],
+ "tracker": [
+  {
+   "id": "alisson-new-contract",
+   "player": "Alisson Becker",
+   "position": "Goalkeeper",
+   "club": "Liverpool",
+   "move": "contract",
+   "status": "warm",
+   "tier": 2,
+   "reportedBy": [
+    {"outlet": "Sky Sports", "journalist": "", "origin": "Alisson interview", "date": "2026-11-09", "url": "https://www.skysports.com/football/news/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season"},
+    {"outlet": "ESPN", "journalist": "Beth Lindop", "origin": "Alisson interview", "date": "2026-11-09", "url": "https://www.espn.com/soccer/story/_/id/50431084/alisson-becker-liverpool-contract"}
+   ],
+   "firstSeen": "2026-11-09",
+   "lastChange": "2026-11-10",
+   "update": "No change today"
+  }
+ ],
+ "talking": [],
+ "xlist": [
+  {
+   "handle": "@JamesPearceLFC",
+   "kind": "take",
+   "headline": "Van Dijk 'not panicking' over future",
+   "summary": "Pearce shared The Athletic's report that Van Dijk is weighing whether this is his last year. ESPN carries the same quotes.",
+   "trust": "Plausible",
+   "thread": {"date": "10 Nov", "url": "https://x.com/JamesPearceLFC/status/2120137480238158175"}
+  },
+  {
+   "handle": "@thisisanfield",
+   "kind": "take",
+   "headline": "Not ready for life after Alisson and Van Dijk",
+   "summary": "An opinion piece argues the club has no ready answer if both leave, as each enters the final year of their deal.",
+   "trust": "Opinion",
+   "thread": {"date": "10 Nov", "url": "https://x.com/thisisanfield/status/2120217934853235005"}
+  }
+ ],
+ "mood": {
+  "word": "positive",
+  "split": {"positive": 50, "mixed": 35, "negative": 15},
+  "bySubject": {"player": [55, 30, 15], "team": [50, 35, 15], "manager": [60, 30, 10], "board": [40, 40, 20]},
+  "basis": "About 90 posts on X and r/LiverpoolFC over the last day",
+  "themes": [
+   "Fans want clarity on Van Dijk and Alisson contracts.",
+   "Relief that Van Dijk pulled out of Dutch duty.",
+   "Praise for Alisson's award and wish to stay.",
+   "Growing belief in Iraola after the 3-1 win at Palace."
+  ],
+  "quotes": [
+   {"about": "player", "subject": "Isak", "kind": "opinion", "tone": "positive", "text": "We are in transition He hasn’t started yet Wait till Iraola sorts out who behind him", "handle": "@OneScouse", "url": "https://x.com/OneScouse/status/2120406439110103458"}
+  ]
+ },
+ "evidence": {
+  "searches": 11,
+  "kept": 3,
+  "rejected": [
+   {"what": "Real Madrid 3-0 Valencia", "why": "Played 7 Nov, too old for today's brief"},
+   {"what": "Inter beat Como", "why": "Played 8 Nov, and the page would not open"},
+   {"what": "Alisson contract talks", "why": "Already covered yesterday, no new development"},
+   {"what": "Ngumoha Ballon d'Or comments", "why": "Telegraph original not opened"}
+  ],
+  "note": "Quiet break. No Champions League story found within 36 hours."
+ }
+}

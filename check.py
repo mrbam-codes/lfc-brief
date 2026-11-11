@@ -47,6 +47,83 @@ def url(where, value, host=None):
         need(v.startswith("https://" + host + "/"), f"{where}: url must be on {host}")
 
 
+# ---------- trust rules (plan 2): editions dated 11 Nov 2026 or later ----------
+# Older editions are already published and are never re-judged by these rules.
+TRUST_FROM = "2026-11-11"
+FRESH_DAYS = 3   # a story's source must be at most 3 days older than the brief
+REGISTER = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))["tiers"]
+MONTHS = {m: i + 1 for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"])}
+EDITION = {}
+
+
+def host(u):
+    m = re.match(r"^https?://([^/:?#]+)", str(u or ""), re.I)
+    h = m.group(1).lower() if m else ""
+    return h[4:] if h.startswith("www.") else h
+
+
+def tier(u):
+    """original, secondary, lead or unlisted. A domain matches itself and its sub-domains; the longest match wins."""
+    h, best, size = host(u), "unlisted", -1
+    for t in ("original", "secondary", "lead"):
+        for d in REGISTER.get(t, []):
+            if (h == d or h.endswith("." + d)) and len(d) > size:
+                best, size = t, len(d)
+    return best if h else "unlisted"
+
+
+def trust_on():
+    day = EDITION.get("day")
+    return bool(day) and day.isoformat() >= TRUST_FROM
+
+
+def trusted(where, urls):
+    """Refuse a story whose only sources are lead only in sources.json."""
+    urls = [u for u in urls if u]
+    if trust_on() and urls and all(tier(u) == "lead" for u in urls):
+        need(False, f"{where}: its only source ({', '.join(sorted({host(u) for u in urls}))}) is lead only in sources.json. "
+                    "Find the original report and cite that, or leave the story out")
+
+
+def fresh(where, value):
+    """A story's source date (like 9 Nov) must be within FRESH_DAYS of the brief."""
+    if not trust_on():
+        return
+    day = EDITION["day"]
+    m = re.fullmatch(r"\s*(\d{1,2}) ([A-Za-z]{3})[a-z]*\.?(?: (\d{4}))?\s*", str(value or ""))
+    if not m or m.group(2).lower() not in MONTHS:
+        need(False, f"{where}: source date must look like 9 Nov")
+        return
+    try:
+        y = int(m.group(3) or day.year)
+        d = datetime.date(y, MONTHS[m.group(2).lower()], int(m.group(1)))
+        if not m.group(3) and d > day + datetime.timedelta(days=1):
+            d = d.replace(year=y - 1)
+    except ValueError:
+        need(False, f"{where}: source date {value!r} is not a real date")
+        return
+    need(-1 <= (day - d).days <= FRESH_DAYS, f"{where}: source is dated {value}, more than {FRESH_DAYS} days before this brief. Leave old news out")
+
+
+def evidence(b):
+    """Optional for now: how the morning run searched. Required once the routine prompt asks for it."""
+    ev = b.get("evidence")
+    if ev is None:
+        return
+    need(isinstance(ev, dict), "evidence: must be an object with searches, kept and rejected")
+    if not isinstance(ev, dict):
+        return
+    for k in ("searches", "kept"):
+        need(isinstance(ev.get(k), int) and 0 <= ev[k] <= 300, f"evidence {k}: a whole number from 0 to 300")
+    rj = ev.get("rejected", [])
+    need(isinstance(rj, list) and len(rj) <= 8, "evidence rejected: a list of 8 at most")
+    for i, r in enumerate(rj if isinstance(rj, list) else []):
+        text(f"evidence rejected {i + 1} what", (r or {}).get("what"), 90)
+        text(f"evidence rejected {i + 1} why", (r or {}).get("why"), 120)
+    if "note" in ev:
+        text("evidence note", ev.get("note"), 200)
+
+
 def story(where, s, poster):
     need(s.get("tag") in TAGS, f"{where}: tag must be one of {sorted(TAGS)}")
     text(f"{where} headline", s.get("headline"), 34 if poster else 70)
@@ -55,6 +132,8 @@ def story(where, s, poster):
     text(f"{where} source name", src.get("name"))
     text(f"{where} source date", src.get("date"), 12)
     url(f"{where} source", src.get("url"))
+    fresh(where, src.get("date"))
+    trusted(where, [src.get("url")])
     r = s.get("read") or {}
     for k in ("what", "context", "take"):
         text(f"{where} read.{k}", r.get(k), 600)
@@ -94,6 +173,7 @@ def previous(date):
 def check(date):
     b = json.loads((ROOT / "briefs" / f"{date}.json").read_text())
     day = datetime.date.fromisoformat(date)
+    EDITION["day"] = day
     need(b.get("date") == date, "date does not match the filename")
     need("sample" not in b, "remove the sample flag")
     need(b.get("dayLabel") == f"{day:%A} {day.day} {day:%B %Y}", "dayLabel does not match the date")
@@ -255,6 +335,7 @@ def check(date):
         text(f"{w} thread date", th.get("date"), 12)
         url(f"{w} thread", th.get("url"), "x.com")
 
+    evidence(b)
     mood = b.get("mood")
     if mood is not None:
         need(mood.get("word") in ("positive", "mixed", "frustrated", "angry"), "mood: word must be positive, mixed, frustrated or angry")
@@ -311,7 +392,10 @@ def render(date):
     need('class="tracker' in out, "page did not render the rumour tracker")
     need('data-opening="' in out, "page did not start its opening world")
     need('class="err"' not in out, "page showed its error message")
-    if json.loads((ROOT / "briefs" / f"{date}.json").read_text()).get("mood"):
+    b = json.loads((ROOT / "briefs" / f"{date}.json").read_text())
+    want, cards = len(b.get("posters") or []) + len(b.get("stories") or []), len(re.findall(r'class="rb-cd[ "]', out))
+    need(cards == want, f"Today deck shows {cards} story cards, the brief has {want} stories (posters included)")
+    if b.get("mood"):
         need('class="mood"' in out, "page did not render the fan mood")
 
 
