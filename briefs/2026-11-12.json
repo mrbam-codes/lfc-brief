@@ -1,0 +1,382 @@
+{
+ "date": "2026-11-12",
+ "dayLabel": "Thursday 12 November 2026",
+ "dayType": "talking",
+ "window": false,
+ "verdict": "Panel says Liverpool were denied a penalty at Arsenal. Injury worries remain.",
+ "big": {
+  "value": "4:1",
+  "label": "KMI panel vote: Isak foul was a penalty"
+ },
+ "posters": [
+  {
+   "tag": "LFC",
+   "headline": "Panel: Liverpool denied a penalty",
+   "big": "4:1",
+   "summary": "The KMI Panel says Timber's tug on Isak should have been a penalty in the 1-0 loss to Arsenal.",
+   "source": {
+    "name": "ESPN",
+    "date": "11 Nov",
+    "url": "https://www.espn.com/soccer/story/_/id/50451926/liverpool-penalty-arsenal-alexander-isak"
+   },
+   "read": {
+    "what": "ESPN reports the five-person panel voted 4:1 that referee Andy Madley was wrong not to award a penalty for Jurrien Timber's shirt-tug on Alexander Isak at Anfield on 1 November. Arsenal won 1-0. Three said VAR Stuart Attwell should have sent Madley to the pitchside screen.",
+    "context": "Arsenal lead the table on 27 points, Liverpool are fourth on 18. The panel only explains decisions. It changes no result or points.",
+    "take": "Opinion: the verdict backs Liverpool's complaint, but it cannot give back the points. Two panellists felt VAR should stay out, so the call was not unanimous. Watch for any PGMOL response."
+   }
+  },
+  {
+   "tag": "LFC",
+   "headline": "Szoboszlai knee waits on Hungary",
+   "big": "",
+   "summary": "Hungary say a decision on the knee sprain will almost certainly come at the last minute.",
+   "source": {
+    "name": "Sports Mole",
+    "date": "10 Nov",
+    "url": "https://www.sportsmole.co.uk/football/liverpool/injury-news/news/hungary-confirm-last-minute-szoboszlai-decision-in-new-liverpool-injury-update_608824.html"
+   },
+   "read": {
+    "what": "Sports Mole says Szoboszlai hurt his knee in the 3-1 win at Palace and Hungary call it a sprain. Their statement says he has had medical examinations and a decision on playing 'will almost certainly only be made at the last minute'. Hungary play Georgia on Saturday.",
+    "context": "Liverpool host Man United on Sunday 22 November. Van Dijk and Gravenberch are also doubts, so midfield and defence are thin.",
+    "take": "Opinion: Liverpool would want him rested, not risked. No club statement is quoted, so the recovery time is unknown. Watch whether he plays on Saturday."
+   }
+  }
+ ],
+ "stories": [
+  {
+   "tag": "PL",
+   "headline": "Man United agree Pochettino in principle",
+   "summary": "Sky says United have a verbal agreement in principle. Carrick is likely to go first. Not official.",
+   "source": {
+    "name": "Sky Sports",
+    "date": "11 Nov",
+    "url": "https://www.skysports.com/football/news/13610949/mauricio-pochettino-man-utd-strike-agreement-with-michael-carricks-potential-successor"
+   },
+   "read": {
+    "what": "Sky reports a 'verbal agreement in principle' with Mauricio Pochettino, conditional on Michael Carrick being removed. United still need to agree a £7m buyout with US Soccer. Sky says it is understood, with no club statement.",
+    "context": "United visit Anfield on 22 November. Pochettino may coach the USA in the break, so he could have little time with the squad.",
+    "take": "Opinion: Sky's report is strong but not a done deal until United confirm. A new manager makes United harder to predict. Watch for an official announcement."
+   }
+  }
+ ],
+ "lastMatch": null,
+ "nextMatch": {
+  "opp": "Manchester United",
+  "comp": "Premier League",
+  "venue": "H",
+  "kickoff": "2026-11-22T16:30:00Z",
+  "teamNews": "Van Dijk, Szoboszlai doubts; Gravenberch major doubt; Frimpong out. Sky lists 16:00 and 16:30.",
+  "likelyXI": [],
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/liverpool"
+  }
+ },
+ "fixtures": [
+  {
+   "opp": "Manchester United",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Sun 22 Nov",
+   "time": "16:30"
+  },
+  {
+   "opp": "Sunderland",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Wed 2 Dec",
+   "time": "19:00"
+  },
+  {
+   "opp": "Tottenham Hotspur",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Sat 19 Dec",
+   "time": "17:00"
+  }
+ ],
+ "table": {
+  "asOf": "8 Nov",
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/premier-league-table"
+  },
+  "rows": [
+   {
+    "pos": 1,
+    "team": "Arsenal",
+    "played": 10,
+    "gd": 10,
+    "pts": 27
+   },
+   {
+    "pos": 2,
+    "team": "Brighton",
+    "played": 10,
+    "gd": 19,
+    "pts": 22
+   },
+   {
+    "pos": 3,
+    "team": "Man City",
+    "played": 10,
+    "gd": 8,
+    "pts": 21
+   },
+   {
+    "pos": 4,
+    "team": "Liverpool",
+    "played": 10,
+    "gd": 4,
+    "pts": 18
+   },
+   {
+    "pos": 5,
+    "team": "Chelsea",
+    "played": 10,
+    "gd": 3,
+    "pts": 16
+   },
+   {
+    "pos": 6,
+    "team": "Everton",
+    "played": 10,
+    "gd": 2,
+    "pts": 16
+   }
+  ]
+ },
+ "injuries": [
+  {
+   "player": "Virgil van Dijk",
+   "issue": "Fitness, left Dutch squad",
+   "status": "doubt",
+   "expected": "Possibly 22 Nov",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Dominik Szoboszlai",
+   "issue": "Knee sprain, Hungary decide late",
+   "status": "doubt",
+   "expected": "Possibly 22 Nov",
+   "source": {
+    "name": "Sports Mole",
+    "url": "https://www.sportsmole.co.uk/football/liverpool/injury-news/news/hungary-confirm-last-minute-szoboszlai-decision-in-new-liverpool-injury-update_608824.html"
+   }
+  },
+  {
+   "player": "Ryan Gravenberch",
+   "issue": "Heel",
+   "status": "doubt",
+   "expected": "Major doubt for 22 Nov",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Jeremie Frimpong",
+   "issue": "Muscle",
+   "status": "out",
+   "expected": "Possibly 22 Nov",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Hugo Ekitike",
+   "issue": "Achilles",
+   "status": "out",
+   "expected": "December",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Conor Bradley",
+   "issue": "Knee",
+   "status": "out",
+   "expected": "Possibly 2 Dec",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Giovanni Leoni",
+   "issue": "Knee, ACL",
+   "status": "out",
+   "expected": "December",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  }
+ ],
+ "tracker": [
+  {
+   "id": "alisson-new-contract",
+   "player": "Alisson Becker",
+   "position": "Goalkeeper",
+   "club": "Liverpool",
+   "move": "contract",
+   "status": "warm",
+   "tier": 2,
+   "reportedBy": [
+    {
+     "outlet": "Sky Sports",
+     "journalist": "",
+     "origin": "Alisson interview",
+     "date": "2026-11-09",
+     "url": "https://www.skysports.com/football/news/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season"
+    },
+    {
+     "outlet": "ESPN",
+     "journalist": "Beth Lindop",
+     "origin": "Alisson interview",
+     "date": "2026-11-09",
+     "url": "https://www.espn.com/soccer/story/_/id/50431084/alisson-becker-liverpool-contract"
+    }
+   ],
+   "firstSeen": "2026-11-09",
+   "lastChange": "2026-11-10",
+   "update": "No change. A report of an agreed deal is unconfirmed; The Athletic says talks may take time."
+  }
+ ],
+ "talking": [
+  {
+   "headline": "KMI panel: Isak foul should be a penalty",
+   "summary": "Panel voted 4:1 the Timber tug on Isak was a foul. Arsenal won 1-0 on 1 November.",
+   "for": "Liverpool: the panel agrees the challenge met the holding threshold and three said VAR should have intervened. Iraola says players must go down or nothing is given.",
+   "against": "Two panellists felt the high bar for VAR was not met because impact is subjective. Arsenal's win stands and the panel changes no result.",
+   "take": "Opinion: the ruling shows the system is inconsistent, but a late verdict helps nobody. The 3 to 2 split on VAR shows how thin the line is.",
+   "call": "PEN MISSED",
+   "source": {
+    "name": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/50451926/liverpool-penalty-arsenal-alexander-isak"
+   }
+  }
+ ],
+ "xlist": [
+  {
+   "handle": "@JamesPearceLFC",
+   "kind": "take",
+   "headline": "KMI panel rules Isak foul was a penalty",
+   "summary": "Pearce shared The Athletic's report of the 4:1 vote. ESPN carries the same ruling.",
+   "trust": "Confirmed",
+   "thread": {
+    "date": "11 Nov",
+    "url": "https://x.com/JamesPearceLFC/status/2120464988183703623"
+   }
+  },
+  {
+   "handle": "@thisisanfield",
+   "kind": "performance",
+   "headline": "Is Alisson's kicking slowing build-up?",
+   "summary": "A tactical piece argues his distribution holds back Liverpool's play under Iraola.",
+   "trust": "Opinion",
+   "thread": {
+    "date": "11 Nov",
+    "url": "https://x.com/thisisanfield/status/2120592446530711814"
+   }
+  },
+  {
+   "handle": "@LivEchoLFC",
+   "kind": "transfer",
+   "headline": "Echo: Alisson and Van Dijk deal agreed?",
+   "summary": "The post says an agreement is reached. The Athletic says renewals may take time. I did not open the Echo article.",
+   "trust": "Unverified",
+   "thread": {
+    "date": "12 Nov",
+    "url": "https://x.com/LivEchoLFC/status/2120743641299976463"
+   }
+  },
+  {
+   "handle": "@DaveOCKOP",
+   "kind": "transfer",
+   "headline": "Liverpool eye 17-year-old Le Havre wing-back",
+   "summary": "Cites Get French Football News on Djibril Ouziad, also watched by Villa. One report only.",
+   "trust": "Unverified",
+   "thread": {
+    "date": "11 Nov",
+    "url": "https://x.com/DaveOCKOP/status/2120578600223023432"
+   }
+  }
+ ],
+ "mood": {
+  "word": "mixed",
+  "split": {
+   "positive": 35,
+   "mixed": 45,
+   "negative": 20
+  },
+  "bySubject": {
+   "player": [
+    50,
+    40,
+    10
+   ],
+   "team": [
+    30,
+    50,
+    20
+   ],
+   "manager": [
+    40,
+    40,
+    20
+   ],
+   "board": [
+    30,
+    50,
+    20
+   ]
+  },
+  "basis": "About 70 posts on X and r/LiverpoolFC over the last day",
+  "themes": [
+   "Fans are angry the penalty verdict came only after the game.",
+   "Mixed views on Van Dijk and Alisson contract talks.",
+   "Pride in academy players like Will Wright.",
+   "Worry over injuries before Man United."
+  ],
+  "quotes": [
+   {
+    "about": "team",
+    "subject": "The team",
+    "kind": "opinion",
+    "tone": "negative",
+    "text": "Who is the 1 that didn’t vote for it to be a penalty? Name and fire them because they’re idiots who shouldn’t be in such position as that was a stonewall pen!",
+    "handle": "@jmarah_arnold1",
+    "url": "https://x.com/jmarah_arnold1/status/2120647897209507920"
+   }
+  ]
+ },
+ "evidence": {
+  "searches": 13,
+  "kept": 3,
+  "rejected": [
+   {
+    "what": "Alisson and Van Dijk deal agreed",
+    "why": "Only an X post said it. The Athletic says talks may take time."
+   },
+   {
+    "what": "Interest in wing-back Alex Scott",
+    "why": "Only a fan-site roundup, no original report opened"
+   },
+   {
+    "what": "Le Havre's Ouziad",
+    "why": "Single report from a French site, not tracked"
+   },
+   {
+    "what": "Europe headlines",
+    "why": "International break, nothing dated and noteworthy found"
+   }
+  ],
+  "note": "Quiet international break. Fewer stories used."
+ }
+}
