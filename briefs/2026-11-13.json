@@ -1,0 +1,359 @@
+{
+ "date": "2026-11-13",
+ "dayLabel": "Friday 13 November 2026",
+ "dayType": "quiet",
+ "window": false,
+ "verdict": "Quiet break day. United are about to name Pochettino. Szoboszlai's knee is the worry.",
+ "big": {
+  "value": "9 days",
+  "label": "until Man United at Anfield"
+ },
+ "posters": [
+  {
+   "tag": "PL",
+   "headline": "Pochettino set for United job",
+   "big": "2.5 yrs",
+   "summary": "The Athletic reports Pochettino will sign until 2029. Announcement could come as soon as Friday.",
+   "source": {
+    "name": "Football365",
+    "date": "12 Nov",
+    "url": "https://www.football365.com/news/pochettino-to-man-utd-done-as-ornstein-reveals-huge-contract-detail-and-when-announcement-is-due"
+   },
+   "read": {
+    "what": "David Ornstein reports Mauricio Pochettino is set to become Manchester United manager on a two-and-a-half-year deal to summer 2029. He is expected to coach the USA over the international break, then arrive in time for the Liverpool match. Fabrizio Romano says terms were agreed on Wednesday. The announcement could come as soon as Friday.",
+    "context": "Liverpool host United on Sunday 22 November. A new manager after a break can lift a side. He will also have had very little time with the squad.",
+    "take": "Opinion: a new-manager bounce is real but short, and nine days is not much to change a system. Not official until United confirm it. Watch for the club statement and who he picks as staff."
+   }
+  },
+  {
+   "tag": "LFC",
+   "headline": "Szoboszlai knee row grows",
+   "big": "",
+   "summary": "Hungary will decide late whether he plays. An ex-Hungary captain says Liverpool should have taken him off earlier.",
+   "source": {
+    "name": "Yahoo Sports",
+    "date": "12 Nov",
+    "url": "https://sports.yahoo.com/articles/sobbing-andoni-iraola-blamed-liverpool-205000665.html"
+   },
+   "read": {
+    "what": "Szoboszlai sprained his knee against Crystal Palace on 8 November, played on strapped and went off in the 69th minute. Hungary say the decision on him will come at the last minute. They play away at Georgia on Saturday 14 November and at home to Northern Ireland on Tuesday 17 November. Former Hungary captain Janos Csank said he should have come off at half-time. Iraola said he was fine but not 100%.",
+    "context": "He is one of several doubts for United on 22 November, with Van Dijk and Gravenberch.",
+    "take": "Opinion: the criticism of Iraola is one man's view and the sobbing claim is tabloid colour. The real question is whether Hungary risk him. Watch the squad news on Saturday."
+   }
+  }
+ ],
+ "stories": [],
+ "nextMatch": {
+  "opp": "Manchester United",
+  "comp": "Premier League",
+  "venue": "H",
+  "kickoff": "2026-11-22T16:30:00Z",
+  "teamNews": "Van Dijk, Szoboszlai doubts; Gravenberch major doubt; Frimpong out. Sky lists 16:00 and 16:30.",
+  "likelyXI": [],
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/liverpool"
+  }
+ },
+ "fixtures": [
+  {
+   "opp": "Manchester United",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Sun 22 Nov",
+   "time": "16:30"
+  },
+  {
+   "opp": "Sunderland",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Wed 2 Dec",
+   "time": "19:00"
+  },
+  {
+   "opp": "Tottenham Hotspur",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Sat 19 Dec",
+   "time": "17:00"
+  }
+ ],
+ "table": {
+  "asOf": "8 Nov",
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/premier-league-table"
+  },
+  "rows": [
+   {
+    "pos": 1,
+    "team": "Arsenal",
+    "played": 10,
+    "gd": 10,
+    "pts": 27
+   },
+   {
+    "pos": 2,
+    "team": "Brighton",
+    "played": 10,
+    "gd": 19,
+    "pts": 22
+   },
+   {
+    "pos": 3,
+    "team": "Man City",
+    "played": 10,
+    "gd": 8,
+    "pts": 21
+   },
+   {
+    "pos": 4,
+    "team": "Liverpool",
+    "played": 10,
+    "gd": 4,
+    "pts": 18
+   },
+   {
+    "pos": 5,
+    "team": "Chelsea",
+    "played": 10,
+    "gd": 3,
+    "pts": 16
+   },
+   {
+    "pos": 6,
+    "team": "Everton",
+    "played": 10,
+    "gd": 2,
+    "pts": 16
+   }
+  ]
+ },
+ "injuries": [
+  {
+   "player": "Virgil van Dijk",
+   "issue": "Fitness, left Dutch squad",
+   "status": "doubt",
+   "expected": "Possibly 22 Nov",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Dominik Szoboszlai",
+   "issue": "Knee sprain, Hungary decide late",
+   "status": "doubt",
+   "expected": "Possibly 22 Nov",
+   "source": {
+    "name": "Sports Mole",
+    "url": "https://www.sportsmole.co.uk/football/liverpool/injury-news/news/hungary-confirm-last-minute-szoboszlai-decision-in-new-liverpool-injury-update_608824.html"
+   }
+  },
+  {
+   "player": "Ryan Gravenberch",
+   "issue": "Heel",
+   "status": "doubt",
+   "expected": "Major doubt for 22 Nov",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Jeremie Frimpong",
+   "issue": "Muscle",
+   "status": "out",
+   "expected": "Possibly 22 Nov",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Hugo Ekitike",
+   "issue": "Achilles",
+   "status": "out",
+   "expected": "December",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Conor Bradley",
+   "issue": "Knee",
+   "status": "out",
+   "expected": "Possibly 2 Dec",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Giovanni Leoni",
+   "issue": "Knee, ACL",
+   "status": "out",
+   "expected": "December",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  }
+ ],
+ "tracker": [
+  {
+   "id": "alisson-new-contract",
+   "player": "Alisson Becker",
+   "position": "Goalkeeper",
+   "club": "Liverpool",
+   "move": "contract",
+   "status": "warm",
+   "tier": 2,
+   "reportedBy": [
+    {
+     "outlet": "Sky Sports",
+     "journalist": "",
+     "origin": "Alisson interview",
+     "date": "2026-11-09",
+     "url": "https://www.skysports.com/football/news/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season"
+    },
+    {
+     "outlet": "ESPN",
+     "journalist": "Beth Lindop",
+     "origin": "Alisson interview",
+     "date": "2026-11-09",
+     "url": "https://www.espn.com/soccer/story/_/id/50431084/alisson-becker-liverpool-contract"
+    }
+   ],
+   "firstSeen": "2026-11-09",
+   "lastChange": "2026-11-10",
+   "update": "No change today"
+  }
+ ],
+ "talking": [],
+ "xlist": [
+  {
+   "handle": "@David_Ornstein",
+   "kind": "transfer",
+   "headline": "Pochettino to be United boss until 2029",
+   "summary": "Ornstein says a 2.5-year deal, USMNT duty first, then United in time for the Liverpool game.",
+   "trust": "Confirmed",
+   "thread": {
+    "date": "12 Nov",
+    "url": "https://x.com/David_Ornstein/status/2121012556831580230"
+   }
+  },
+  {
+   "handle": "@JamesPearceLFC",
+   "kind": "take",
+   "headline": "Milner back at Anfield for Legends game",
+   "summary": "Milner will play for Liverpool Legends against Inter Legends on 27 March.",
+   "trust": "Plausible",
+   "thread": {
+    "date": "12 Nov",
+    "url": "https://x.com/JamesPearceLFC/status/2120852137475203106"
+   }
+  },
+  {
+   "handle": "@LewisSteele_",
+   "kind": "take",
+   "headline": "January loan considered for Will Wright",
+   "summary": "Academy star Wright may go on loan in January, but only to the right club.",
+   "trust": "Plausible",
+   "thread": {
+    "date": "12 Nov",
+    "url": "https://x.com/LewisSteele_/status/2120818440848224392"
+   }
+  }
+ ],
+ "mood": {
+  "word": "mixed",
+  "split": {
+   "positive": 40,
+   "mixed": 40,
+   "negative": 20
+  },
+  "bySubject": {
+   "player": [
+    50,
+    30,
+    20
+   ],
+   "team": [
+    40,
+    40,
+    20
+   ],
+   "manager": [
+    35,
+    45,
+    20
+   ],
+   "board": [
+    30,
+    40,
+    30
+   ]
+  },
+  "basis": "About 100 posts on X, read by Grok on 13 Nov",
+  "themes": [
+   "Fans are looking ahead to United at Anfield under Pochettino.",
+   "Szoboszlai and Van Dijk injuries are the big worry.",
+   "Van Dijk and Alisson contracts raise squad planning questions.",
+   "January midfield links such as Camara are circulating."
+  ],
+  "quotes": [
+   {
+    "about": "manager",
+    "subject": "Andoni Iraola",
+    "kind": "opinion",
+    "tone": "mixed",
+    "text": "Pochettino will inevitably fail, but do not be surprised when we drop points to United.",
+    "handle": "@hts4OnX",
+    "url": "https://x.com/hts4OnX/status/2121043163959763297"
+   },
+   {
+    "about": "team",
+    "subject": "The team",
+    "kind": "opinion",
+    "tone": "positive",
+    "text": "volveremos Reds, este club nunca camina solo. A confiar en Iraola.",
+    "handle": "@LiverpoolCba",
+    "url": "https://x.com/LiverpoolCba/status/2121050727506153655"
+   },
+   {
+    "about": "board",
+    "subject": "The owners",
+    "kind": "insight",
+    "tone": "mixed",
+    "text": "Camara (in Jan) and Barrios (summer) in with Endo & Grav departing next summer makes a lot of sense for Iraola",
+    "handle": "@LFCBlueprint",
+    "url": "https://x.com/LFCBlueprint/status/2120919853129494970"
+   }
+  ]
+ },
+ "evidence": {
+  "searches": 13,
+  "kept": 2,
+  "rejected": [
+   {
+    "what": "Camara to Liverpool, £42m January bid",
+    "why": "Only an Italian site behind it; no second independent source"
+   },
+   {
+    "what": "Vuskovic as Van Dijk successor, £85m",
+    "why": "Original post by Plettenberg not opened; one source only"
+   },
+   {
+    "what": "La Liga and Serie A headlines",
+    "why": "Searches found nothing from the last 36 hours worth using"
+   },
+   {
+    "what": "Milner Legends game",
+    "why": "Not a news story for the first team"
+   }
+  ],
+  "note": "Quiet break day, so only two stories."
+ }
+}
