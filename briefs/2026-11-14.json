@@ -1,0 +1,363 @@
+{
+ "date": "2026-11-14",
+ "dayLabel": "Saturday 14 November 2026",
+ "dayType": "quiet",
+ "window": false,
+ "verdict": "Quiet break day: Pochettino made official, Mac Allister talks not started.",
+ "big": {
+  "value": "8 days",
+  "label": "until Man United at Anfield"
+ },
+ "posters": [
+  {
+   "tag": "PL",
+   "headline": "Pochettino starts at United",
+   "big": "£7.4m",
+   "summary": "Sky Sports says United appointed Pochettino to 2029. Liverpool is his first game in charge.",
+   "source": {
+    "name": "Sky Sports",
+    "date": "13 Nov",
+    "url": "https://www.skysports.com/football/news/13610882/mauricio-pochettino-appointed-as-manchester-united-head-coach-after-michael-carricks-sacking-at-old-trafford"
+   },
+   "read": {
+    "what": "Sky Sports reports United appointed Mauricio Pochettino on a deal to summer 2029 after sacking Michael Carrick. They must pay about £7.4m to buy him out of his USA contract. He starts on Wednesday after the USA play Haiti, and takes his first training on Thursday.",
+    "context": "Liverpool at Anfield on 22 November is his first match in charge, live on Sky Sports. He will have about three training days. United were in the relegation zone after 10 games.",
+    "take": "Opinion: a new manager can lift a side for a game or two, but three training days is very little to change a system. Watch which XI he picks and how high United press."
+   }
+  },
+  {
+   "tag": "LFC",
+   "headline": "No Mac Allister talks yet",
+   "big": "20 mths",
+   "summary": "His father says renewal talks have not started. News could come before the end of the year.",
+   "source": {
+    "name": "ESPN",
+    "date": "13 Nov",
+    "url": "https://www.espn.com/soccer/story/_/id/50460760/alexis-mac-allister-liverpool-contract-renewal-talks"
+   },
+   "read": {
+    "what": "ESPN reports Carlos Mac Allister saying \"We haven't started renewal talks yet\" and that things are \"still under review\". He said there may be news before the end of the year. About 20 months remain on the deal. If talks go well his son will renew, he said, and if not he will leave.",
+    "context": "ESPN says Mac Allister has started every Premier League game this season. With Van Dijk and Alisson also out of contract next summer, the club has several big decisions.",
+    "take": "Opinion: this is a father speaking, not the club, and nothing is agreed or denied. The key point is that no talks have begun. Watch whether Liverpool open talks before the new year."
+   }
+  }
+ ],
+ "stories": [],
+ "nextMatch": {
+  "opp": "Manchester United",
+  "comp": "Premier League",
+  "venue": "H",
+  "kickoff": "2026-11-22T16:30:00Z",
+  "teamNews": "Van Dijk, Szoboszlai doubts; Gravenberch major doubt; Frimpong out. Check club for kick-off (16:00 or 16:30).",
+  "likelyXI": [],
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/liverpool"
+  }
+ },
+ "fixtures": [
+  {
+   "opp": "Manchester United",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Sun 22 Nov",
+   "time": "16:30"
+  },
+  {
+   "opp": "Sunderland",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Wed 2 Dec",
+   "time": "19:00"
+  },
+  {
+   "opp": "Tottenham Hotspur",
+   "comp": "Premier League",
+   "venue": "H",
+   "date": "Sat 19 Dec",
+   "time": "17:00"
+  }
+ ],
+ "table": {
+  "asOf": "8 Nov",
+  "source": {
+   "name": "Sky Sports",
+   "url": "https://www.skysports.com/premier-league-table"
+  },
+  "rows": [
+   {
+    "pos": 1,
+    "team": "Arsenal",
+    "played": 10,
+    "gd": 10,
+    "pts": 27
+   },
+   {
+    "pos": 2,
+    "team": "Brighton",
+    "played": 10,
+    "gd": 19,
+    "pts": 22
+   },
+   {
+    "pos": 3,
+    "team": "Man City",
+    "played": 10,
+    "gd": 8,
+    "pts": 21
+   },
+   {
+    "pos": 4,
+    "team": "Liverpool",
+    "played": 10,
+    "gd": 4,
+    "pts": 18
+   },
+   {
+    "pos": 5,
+    "team": "Chelsea",
+    "played": 10,
+    "gd": 3,
+    "pts": 16
+   },
+   {
+    "pos": 6,
+    "team": "Everton",
+    "played": 10,
+    "gd": 2,
+    "pts": 16
+   }
+  ]
+ },
+ "injuries": [
+  {
+   "player": "Virgil van Dijk",
+   "issue": "Fitness, left Dutch squad",
+   "status": "doubt",
+   "expected": "Possibly 22 Nov",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Dominik Szoboszlai",
+   "issue": "Knee sprain, Hungary decide late",
+   "status": "doubt",
+   "expected": "Possibly 22 Nov",
+   "source": {
+    "name": "Sports Mole",
+    "url": "https://www.sportsmole.co.uk/football/liverpool/injury-news/news/hungary-confirm-last-minute-szoboszlai-decision-in-new-liverpool-injury-update_608824.html"
+   }
+  },
+  {
+   "player": "Ryan Gravenberch",
+   "issue": "Heel",
+   "status": "doubt",
+   "expected": "Major doubt for 22 Nov",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Jeremie Frimpong",
+   "issue": "Muscle",
+   "status": "out",
+   "expected": "Possibly 22 Nov",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Hugo Ekitike",
+   "issue": "Achilles",
+   "status": "out",
+   "expected": "December",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Conor Bradley",
+   "issue": "Knee",
+   "status": "out",
+   "expected": "Possibly 2 Dec",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  },
+  {
+   "player": "Giovanni Leoni",
+   "issue": "Knee, ACL",
+   "status": "out",
+   "expected": "December",
+   "source": {
+    "name": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/liverpool-injury-virgil-van-dijk-070011127.html"
+   }
+  }
+ ],
+ "tracker": [
+  {
+   "id": "alisson-new-contract",
+   "player": "Alisson Becker",
+   "position": "Goalkeeper",
+   "club": "Liverpool",
+   "move": "contract",
+   "status": "warm",
+   "tier": 2,
+   "reportedBy": [
+    {
+     "outlet": "Sky Sports",
+     "journalist": "",
+     "origin": "Alisson interview",
+     "date": "2026-11-09",
+     "url": "https://www.skysports.com/football/news/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season"
+    },
+    {
+     "outlet": "ESPN",
+     "journalist": "Beth Lindop",
+     "origin": "Alisson interview",
+     "date": "2026-11-09",
+     "url": "https://www.espn.com/soccer/story/_/id/50431084/alisson-becker-liverpool-contract"
+    }
+   ],
+   "firstSeen": "2026-11-09",
+   "lastChange": "2026-11-10",
+   "update": "No change today"
+  },
+  {
+   "id": "mac-allister-new-contract",
+   "player": "Alexis Mac Allister",
+   "position": "Midfielder",
+   "club": "Liverpool",
+   "move": "contract",
+   "status": "warm",
+   "tier": 2,
+   "reportedBy": [
+    {
+     "outlet": "ESPN",
+     "journalist": "",
+     "origin": "Carlos Mac Allister (player's father)",
+     "date": "2026-11-13",
+     "url": "https://www.espn.com/soccer/story/_/id/50460760/alexis-mac-allister-liverpool-contract-renewal-talks"
+    }
+   ],
+   "firstSeen": "2026-11-14",
+   "lastChange": "2026-11-14",
+   "update": "Father says no renewal talks yet; news possible before year end."
+  }
+ ],
+ "talking": [],
+ "xlist": [
+  {
+   "handle": "@DaveOCKOP",
+   "kind": "transfer",
+   "headline": "Mac Allister father on contract",
+   "summary": "Says talks have not begun with about 20 months left. ESPN carries the same quotes.",
+   "trust": "Confirmed",
+   "thread": {
+    "date": "13 Nov",
+    "url": "https://x.com/DaveOCKOP/status/2121356550858039423"
+   }
+  },
+  {
+   "handle": "@JamesPearceLFC",
+   "kind": "take",
+   "headline": "Centre-back not a priority",
+   "summary": "Says Liverpool are unlikely to spend big on a centre-back in January or next summer. Backs Jacquet and the young defenders.",
+   "trust": "Opinion",
+   "thread": {
+    "date": "13 Nov",
+    "url": "https://x.com/JamesPearceLFC/status/2121174276904480826"
+   }
+  },
+  {
+   "handle": "@FabrizioRomano",
+   "kind": "transfer",
+   "headline": "Trent not leaving Real in January",
+   "summary": "Romano says Alexander-Arnold has no plans to leave Real Madrid in January. His own sources.",
+   "trust": "Plausible",
+   "thread": {
+    "date": "13 Nov",
+    "url": "https://x.com/FabrizioRomano/status/2121334366680850582"
+   }
+  },
+  {
+   "handle": "@thisisanfield",
+   "kind": "performance",
+   "headline": "Strong away, shaky at Anfield",
+   "summary": "Analysis of why Liverpool thrive away from home but struggle at Anfield this season.",
+   "trust": "Opinion",
+   "thread": {
+    "date": "13 Nov",
+    "url": "https://x.com/thisisanfield/status/2121317032410988835"
+   }
+  }
+ ],
+ "mood": {
+  "word": "mixed",
+  "split": {
+   "positive": 40,
+   "mixed": 40,
+   "negative": 20
+  },
+  "bySubject": {
+   "player": [
+    50,
+    30,
+    20
+   ],
+   "team": [
+    40,
+    40,
+    20
+   ],
+   "manager": [
+    30,
+    50,
+    20
+   ],
+   "board": [
+    20,
+    40,
+    40
+   ]
+  },
+  "basis": "About 30 posts on X, from Grok. No Reddit access.",
+  "themes": [
+   "Contracts for Van Dijk, Alisson and Mac Allister dominate talk.",
+   "Worry about young players and succession.",
+   "Szoboszlai knee and break injuries are a concern.",
+   "Excitement with caution before Man United."
+  ],
+  "quotes": []
+ },
+ "evidence": {
+  "searches": 16,
+  "kept": 2,
+  "rejected": [
+   {
+    "what": "Van Dijk and AC Milan interest",
+    "why": "BBC original not opened; other reports are lead-only sites"
+   },
+   {
+    "what": "Szoboszlai knee update",
+    "why": "Latest articles opened are dated 9 and 10 Nov, too old for a story"
+   },
+   {
+    "what": "La Liga and Serie A headlines",
+    "why": "Searches found nothing worth using from the last 36 hours"
+   },
+   {
+    "what": "Champions League headlines",
+    "why": "Results were women's games or old; nothing usable"
+   }
+  ],
+  "note": "Quiet international break, so only two stories. Table is as of 8 Nov."
+ }
+}
